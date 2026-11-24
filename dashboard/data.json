@@ -1,0 +1,881 @@
+{
+ "headline": {
+  "events": 4295584,
+  "users": 270154,
+  "sessions": 360129,
+  "orders": 4451,
+  "revenue": 308200.0,
+  "aov": 69.24,
+  "session_cvr": 0.0135,
+  "buyers_without_cart_event": 0.3403
+ },
+ "funnel": [
+  {
+   "step": "1 Visit",
+   "users": 270154,
+   "step_conversion": null,
+   "users_lost": null,
+   "overall_conversion": 1.0
+  },
+  {
+   "step": "2 View product",
+   "users": 61252,
+   "step_conversion": 0.2267,
+   "users_lost": 208902,
+   "overall_conversion": 0.2267
+  },
+  {
+   "step": "3 Add to cart",
+   "users": 12545,
+   "step_conversion": 0.2048,
+   "users_lost": 48707,
+   "overall_conversion": 0.0464
+  },
+  {
+   "step": "4 Begin checkout",
+   "users": 9715,
+   "step_conversion": 0.7744,
+   "users_lost": 2830,
+   "overall_conversion": 0.036
+  },
+  {
+   "step": "5 Payment info",
+   "users": 5751,
+   "step_conversion": 0.592,
+   "users_lost": 3964,
+   "overall_conversion": 0.0213
+  },
+  {
+   "step": "6 Purchase",
+   "users": 4419,
+   "step_conversion": 0.7684,
+   "users_lost": 1332,
+   "overall_conversion": 0.0164
+  }
+ ],
+ "funnel_by_device": [
+  {
+   "device": "desktop",
+   "sessions": 208942,
+   "visit_to_view": 0.2145,
+   "view_to_checkout": 0.1426,
+   "checkout_to_payment": 0.6078,
+   "payment_to_purchase": 0.7073,
+   "session_cvr": 0.01316
+  },
+  {
+   "device": "mobile",
+   "sessions": 143185,
+   "visit_to_view": 0.213,
+   "view_to_checkout": 0.1467,
+   "checkout_to_payment": 0.6209,
+   "payment_to_purchase": 0.7174,
+   "session_cvr": 0.01393
+  },
+  {
+   "device": "tablet",
+   "sessions": 8002,
+   "visit_to_view": 0.2124,
+   "view_to_checkout": 0.1412,
+   "checkout_to_payment": 0.6333,
+   "payment_to_purchase": 0.6842,
+   "session_cvr": 0.013
+  }
+ ],
+ "landing": [
+  {
+   "landing_type": "home",
+   "sessions": 167187,
+   "share": 0.4642,
+   "view_item_rate": 0.2049,
+   "session_cvr": 0.01724,
+   "avg_pageviews": 5.0
+  },
+  {
+   "landing_type": "category page",
+   "sessions": 106798,
+   "share": 0.2966,
+   "view_item_rate": 0.1909,
+   "session_cvr": 0.00872,
+   "avg_pageviews": 3.0
+  },
+  {
+   "landing_type": "product page",
+   "sessions": 44587,
+   "share": 0.1238,
+   "view_item_rate": 0.4331,
+   "session_cvr": 0.0109,
+   "avg_pageviews": 2.8
+  },
+  {
+   "landing_type": "other",
+   "sessions": 6968,
+   "share": 0.0193,
+   "view_item_rate": 0.093,
+   "session_cvr": 0.0056,
+   "avg_pageviews": 2.7
+  },
+  {
+   "landing_type": "account",
+   "sessions": 4313,
+   "share": 0.012,
+   "view_item_rate": 0.1697,
+   "session_cvr": 0.02945,
+   "avg_pageviews": 5.5
+  },
+  {
+   "landing_type": "cart / checkout",
+   "sessions": 3830,
+   "share": 0.0106,
+   "view_item_rate": 0.3486,
+   "session_cvr": 0.09948,
+   "avg_pageviews": 7.1
+  }
+ ],
+ "search": [
+  {
+   "used_search": false,
+   "sessions": 344410,
+   "share": 0.9564,
+   "view_item_rate": 0.2006,
+   "session_cvr": 0.01219
+  },
+  {
+   "used_search": true,
+   "sessions": 15719,
+   "share": 0.0436,
+   "view_item_rate": 0.5041,
+   "session_cvr": 0.04141
+  }
+ ],
+ "retention": [
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 0,
+   "users": 19374,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 1,
+   "users": 1227,
+   "retention": 0.0633
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 2,
+   "users": 660,
+   "retention": 0.0341
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 3,
+   "users": 468,
+   "retention": 0.0242
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 4,
+   "users": 441,
+   "retention": 0.0228
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 5,
+   "users": 378,
+   "retention": 0.0195
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 6,
+   "users": 249,
+   "retention": 0.0129
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 7,
+   "users": 113,
+   "retention": 0.0058
+  },
+  {
+   "cohort_wk": "2020-11-02",
+   "week_n": 8,
+   "users": 75,
+   "retention": 0.0039
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 0,
+   "users": 16232,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 1,
+   "users": 1092,
+   "retention": 0.0673
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 2,
+   "users": 507,
+   "retention": 0.0312
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 3,
+   "users": 416,
+   "retention": 0.0256
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 4,
+   "users": 400,
+   "retention": 0.0246
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 5,
+   "users": 245,
+   "retention": 0.0151
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 6,
+   "users": 122,
+   "retention": 0.0075
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 7,
+   "users": 68,
+   "retention": 0.0042
+  },
+  {
+   "cohort_wk": "2020-11-09",
+   "week_n": 8,
+   "users": 100,
+   "retention": 0.0062
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 0,
+   "users": 18167,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 1,
+   "users": 1052,
+   "retention": 0.0579
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 2,
+   "users": 599,
+   "retention": 0.033
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 3,
+   "users": 433,
+   "retention": 0.0238
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 4,
+   "users": 326,
+   "retention": 0.0179
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 5,
+   "users": 131,
+   "retention": 0.0072
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 6,
+   "users": 78,
+   "retention": 0.0043
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 7,
+   "users": 87,
+   "retention": 0.0048
+  },
+  {
+   "cohort_wk": "2020-11-16",
+   "week_n": 8,
+   "users": 85,
+   "retention": 0.0047
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 0,
+   "users": 20072,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 1,
+   "users": 1023,
+   "retention": 0.051
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 2,
+   "users": 533,
+   "retention": 0.0266
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 3,
+   "users": 318,
+   "retention": 0.0158
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 4,
+   "users": 152,
+   "retention": 0.0076
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 5,
+   "users": 93,
+   "retention": 0.0046
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 6,
+   "users": 106,
+   "retention": 0.0053
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 7,
+   "users": 98,
+   "retention": 0.0049
+  },
+  {
+   "cohort_wk": "2020-11-23",
+   "week_n": 8,
+   "users": 80,
+   "retention": 0.004
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 0,
+   "users": 22034,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 1,
+   "users": 1192,
+   "retention": 0.0541
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 2,
+   "users": 491,
+   "retention": 0.0223
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 3,
+   "users": 196,
+   "retention": 0.0089
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 4,
+   "users": 138,
+   "retention": 0.0063
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 5,
+   "users": 147,
+   "retention": 0.0067
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 6,
+   "users": 118,
+   "retention": 0.0054
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 7,
+   "users": 86,
+   "retention": 0.0039
+  },
+  {
+   "cohort_wk": "2020-11-30",
+   "week_n": 8,
+   "users": 98,
+   "retention": 0.0044
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 0,
+   "users": 28545,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 1,
+   "users": 954,
+   "retention": 0.0334
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 2,
+   "users": 271,
+   "retention": 0.0095
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 3,
+   "users": 194,
+   "retention": 0.0068
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 4,
+   "users": 298,
+   "retention": 0.0104
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 5,
+   "users": 168,
+   "retention": 0.0059
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 6,
+   "users": 122,
+   "retention": 0.0043
+  },
+  {
+   "cohort_wk": "2020-12-07",
+   "week_n": 7,
+   "users": 115,
+   "retention": 0.004
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 0,
+   "users": 24839,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 1,
+   "users": 716,
+   "retention": 0.0288
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 2,
+   "users": 235,
+   "retention": 0.0095
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 3,
+   "users": 314,
+   "retention": 0.0126
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 4,
+   "users": 227,
+   "retention": 0.0091
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 5,
+   "users": 143,
+   "retention": 0.0058
+  },
+  {
+   "cohort_wk": "2020-12-14",
+   "week_n": 6,
+   "users": 114,
+   "retention": 0.0046
+  },
+  {
+   "cohort_wk": "2020-12-21",
+   "week_n": 0,
+   "users": 17430,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-12-21",
+   "week_n": 1,
+   "users": 447,
+   "retention": 0.0256
+  },
+  {
+   "cohort_wk": "2020-12-21",
+   "week_n": 2,
+   "users": 203,
+   "retention": 0.0116
+  },
+  {
+   "cohort_wk": "2020-12-21",
+   "week_n": 3,
+   "users": 172,
+   "retention": 0.0099
+  },
+  {
+   "cohort_wk": "2020-12-21",
+   "week_n": 4,
+   "users": 104,
+   "retention": 0.006
+  },
+  {
+   "cohort_wk": "2020-12-21",
+   "week_n": 5,
+   "users": 75,
+   "retention": 0.0043
+  },
+  {
+   "cohort_wk": "2020-12-28",
+   "week_n": 0,
+   "users": 16615,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2020-12-28",
+   "week_n": 1,
+   "users": 411,
+   "retention": 0.0247
+  },
+  {
+   "cohort_wk": "2020-12-28",
+   "week_n": 2,
+   "users": 149,
+   "retention": 0.009
+  },
+  {
+   "cohort_wk": "2020-12-28",
+   "week_n": 3,
+   "users": 101,
+   "retention": 0.0061
+  },
+  {
+   "cohort_wk": "2020-12-28",
+   "week_n": 4,
+   "users": 78,
+   "retention": 0.0047
+  },
+  {
+   "cohort_wk": "2021-01-04",
+   "week_n": 0,
+   "users": 22908,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2021-01-04",
+   "week_n": 1,
+   "users": 732,
+   "retention": 0.032
+  },
+  {
+   "cohort_wk": "2021-01-04",
+   "week_n": 2,
+   "users": 285,
+   "retention": 0.0124
+  },
+  {
+   "cohort_wk": "2021-01-04",
+   "week_n": 3,
+   "users": 200,
+   "retention": 0.0087
+  },
+  {
+   "cohort_wk": "2021-01-11",
+   "week_n": 0,
+   "users": 21433,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2021-01-11",
+   "week_n": 1,
+   "users": 786,
+   "retention": 0.0367
+  },
+  {
+   "cohort_wk": "2021-01-11",
+   "week_n": 2,
+   "users": 301,
+   "retention": 0.014
+  },
+  {
+   "cohort_wk": "2021-01-18",
+   "week_n": 0,
+   "users": 20698,
+   "retention": 1.0
+  },
+  {
+   "cohort_wk": "2021-01-18",
+   "week_n": 1,
+   "users": 858,
+   "retention": 0.0415
+  },
+  {
+   "cohort_wk": "2021-01-25",
+   "week_n": 0,
+   "users": 19442,
+   "retention": 1.0
+  }
+ ],
+ "retention_by_segment": [
+  {
+   "dim": "channel",
+   "segment": "organic",
+   "users": 69644,
+   "w1": 0.0437,
+   "w1_4": 0.0691
+  },
+  {
+   "dim": "channel",
+   "segment": "(none)",
+   "users": 43925,
+   "w1": 0.0443,
+   "w1_4": 0.0719
+  },
+  {
+   "dim": "channel",
+   "segment": "<Other>",
+   "users": 32132,
+   "w1": 0.0396,
+   "w1_4": 0.0618
+  },
+  {
+   "dim": "channel",
+   "segment": "referral",
+   "users": 27761,
+   "w1": 0.0481,
+   "w1_4": 0.0797
+  },
+  {
+   "dim": "channel",
+   "segment": "cpc",
+   "users": 9793,
+   "w1": 0.0418,
+   "w1_4": 0.0673
+  },
+  {
+   "dim": "device",
+   "segment": "desktop",
+   "users": 108063,
+   "w1": 0.0448,
+   "w1_4": 0.0715
+  },
+  {
+   "dim": "device",
+   "segment": "mobile",
+   "users": 73458,
+   "w1": 0.0456,
+   "w1_4": 0.0736
+  },
+  {
+   "dim": "device",
+   "segment": "tablet",
+   "users": 4152,
+   "w1": 0.0421,
+   "w1_4": 0.0711
+  }
+ ],
+ "attribution": [
+  {
+   "medium": "organic",
+   "first_touch_orders": 1613.0,
+   "first_touch_revenue": 107231.0,
+   "last_touch_orders": 689.0,
+   "last_touch_revenue": 46399.0,
+   "ft_to_lt_ratio": 2.31
+  },
+  {
+   "medium": "(none)",
+   "first_touch_orders": 1017.0,
+   "first_touch_revenue": 71767.0,
+   "last_touch_orders": 470.0,
+   "last_touch_revenue": 29448.0,
+   "ft_to_lt_ratio": 2.44
+  },
+  {
+   "medium": "referral",
+   "first_touch_orders": 713.0,
+   "first_touch_revenue": 49447.0,
+   "last_touch_orders": 2758.0,
+   "last_touch_revenue": 199096.0,
+   "ft_to_lt_ratio": 0.25
+  },
+  {
+   "medium": "<Other>",
+   "first_touch_orders": 678.0,
+   "first_touch_revenue": 46541.0,
+   "last_touch_orders": 277.0,
+   "last_touch_revenue": 17896.0,
+   "ft_to_lt_ratio": 2.6
+  },
+  {
+   "medium": "cpc",
+   "first_touch_orders": 205.0,
+   "first_touch_revenue": 15554.0,
+   "last_touch_orders": 78.0,
+   "last_touch_revenue": 4216.0,
+   "ft_to_lt_ratio": 3.69
+  }
+ ],
+ "channel_perf": [
+  {
+   "medium": "organic",
+   "sessions": 122937,
+   "session_cvr": 0.01174,
+   "revenue_per_session": 0.738
+  },
+  {
+   "medium": "(none)",
+   "sessions": 83552,
+   "session_cvr": 0.01403,
+   "revenue_per_session": 0.816
+  },
+  {
+   "medium": "referral",
+   "sessions": 63636,
+   "session_cvr": 0.01835,
+   "revenue_per_session": 1.118
+  },
+  {
+   "medium": "<Other>",
+   "sessions": 52100,
+   "session_cvr": 0.01052,
+   "revenue_per_session": 0.584
+  },
+  {
+   "medium": "cpc",
+   "sessions": 15620,
+   "session_cvr": 0.00992,
+   "revenue_per_session": 0.482
+  }
+ ],
+ "rfm": [
+  {
+   "segment": "Lapsed big spenders",
+   "users": 754,
+   "share_users": 0.2037,
+   "revenue": 93790.0,
+   "share_revenue": 0.3043,
+   "avg_revenue": 124.4,
+   "avg_orders": 1.0,
+   "avg_recency_days": 64.9
+  },
+  {
+   "segment": "Recent one-timers",
+   "users": 1211,
+   "share_users": 0.3271,
+   "revenue": 67704.0,
+   "share_revenue": 0.2197,
+   "avg_revenue": 55.9,
+   "avg_orders": 1.0,
+   "avg_recency_days": 36.2
+  },
+  {
+   "segment": "Champions",
+   "users": 220,
+   "share_users": 0.0594,
+   "revenue": 43317.0,
+   "share_revenue": 0.1405,
+   "avg_revenue": 196.9,
+   "avg_orders": 2.87,
+   "avg_recency_days": 36.0
+  },
+  {
+   "segment": "New big spenders",
+   "users": 377,
+   "share_users": 0.1018,
+   "revenue": 41588.0,
+   "share_revenue": 0.1349,
+   "avg_revenue": 110.3,
+   "avg_orders": 1.0,
+   "avg_recency_days": 16.6
+  },
+  {
+   "segment": "Loyal repeaters",
+   "users": 219,
+   "share_users": 0.0592,
+   "revenue": 33293.0,
+   "share_revenue": 0.108,
+   "avg_revenue": 152.0,
+   "avg_orders": 2.54,
+   "avg_recency_days": 57.6
+  },
+  {
+   "segment": "Lapsed low-value",
+   "users": 921,
+   "share_users": 0.2488,
+   "revenue": 28508.0,
+   "share_revenue": 0.0925,
+   "avg_revenue": 31.0,
+   "avg_orders": 1.0,
+   "avg_recency_days": 65.1
+  }
+ ],
+ "repeat": {
+  "repeat_users": 439,
+  "median_days_to_2nd": 0.0,
+  "repeat_rate": 0.1186
+ },
+ "opportunities": [
+  {
+   "fix": "Checkout: guest checkout + express pay on the first form",
+   "lever": "checkout->payment 61.4% -> 66.4%",
+   "extra_orders": 395.0,
+   "extra_revenue": 27336.0
+  },
+  {
+   "fix": "Category landing pages: search bar + best-sellers row",
+   "lever": "category-landing CVR 0.87% -> 1.08%",
+   "extra_orders": 228.0,
+   "extra_revenue": 15764.0
+  },
+  {
+   "fix": "Post-purchase: day-7 \"complete the set\" email for one-time buyers",
+   "lever": "repeat rate 11.9% -> 14.9%",
+   "extra_orders": 98.0,
+   "extra_revenue": 6778.0
+  }
+ ],
+ "experiments": {
+  "checkout": {
+   "baseline": 0.6136322708,
+   "target": 0.6436322708000001,
+   "n_per_arm": 4068,
+   "traffic_per_day": 120.71739130434783,
+   "days": 68
+  },
+  "category": {
+   "baseline": 0.0087173917,
+   "target": 0.0108490847,
+   "n_per_arm": 33462,
+   "traffic_per_day": 1160.8478260869565,
+   "days": 58
+  },
+  "repeat": {
+   "baseline": 0.1185845489,
+   "target": 0.1485845489,
+   "n_per_arm": 2015,
+   "traffic_per_day": 35.46739130434783,
+   "days": 114
+  }
+ }
+}
